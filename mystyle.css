@@ -3,7 +3,7 @@ body{margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;
 	img {display: block;margin: auto;width: 50%;height: 50%}
 	a:link,
 	a:visited {text-decoration: none;color:#444}
-	a:hover{font-style:italic;color:snow}
+	a:hover{font-style:italic;color:hotpink}
 .gallery {
     display: flex;
     flex-flow: row wrap;
