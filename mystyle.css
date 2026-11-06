@@ -1,5 +1,6 @@
 body{margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;padding:0 10px;background-color:#d7c3e4;text-align:center}
 	h1,h2,h3{line-height:1.2}
 	img {display: block;margin: auto;width: 50%;height: 50%}
-	a:link, a:visited {text-decoration: none;color:#444}
-	a:hover{font-style:italic;color:hotpink}
+	a:link {color:#03B5AA}
+	a:visited {text-decoration: none;color:#444}
+	a:hover{font-style:italic;color:#6CCFF6}
