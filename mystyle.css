@@ -4,3 +4,8 @@ body{margin:40px auto;max-width:650px;line-height:1.6;font-size:18px;color:#444;
 	a:link,
 	a:visited {text-decoration: none;color:#444}
 	a:hover{font-style:italic;color:#6CCFF6}
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+}
