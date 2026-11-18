@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GALLERY</title>
-  <link rel="stylesheet" href="mystyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <img src="IMG_6114(1).png" alt="the goop city logo. hand drawn and drippy as hell">
-  <h3><a href="info.html">about</a> -- <a href="ceramics.html">gallery</a> -- <a href="correspondence.html">contact</a> -- <a href="https://goop-city.square.site">shop</a></h3>
-  <div class="gallery">
-    <figure class="box">
-        <img src="redbluedrip.png" alt="six stacked mugs with a drippy, colorful exterior. the colors are blue, red, yellow, and white.">
-    </figure>
-
-    <figure class="box">
-        <img src="12346.png" alt="four mugs lined up horizontally. the clay is white and the exterior is splattered with pink and dark blue.">
-    </figure>
-    
-    <figure class="box">
-        <img src="12347.png" alt="six stacked mugs with a drippy, colorful exterior. the colors are yellow, blue, and green.">
-    </figure>
-</div>
+  <main>
+    <a class="logo-link" href="index.html"><img class="logo" src="IMG_6114(1).png" alt="the goop city logo. hand drawn and drippy as hell"></a>
+    <nav aria-label="main">
+      <a href="info.html">about</a>
+      <a href="ceramics.html" aria-current="page">gallery</a>
+      <a href="markets.html">markets</a>
+      <a href="correspondence.html">contact</a>
+      <a href="https://goop-city.square.site">shop</a>
+    </nav>
+    <div class="photos">
+      <img src="redbluedrip.png" alt="six stacked mugs with a drippy, colorful exterior. the colors are blue, red, yellow, and white.">
+      <img src="12346.png" alt="four mugs lined up horizontally. the clay is white and the exterior is splattered with pink and dark blue." loading="lazy">
+      <img src="12347.png" alt="six stacked mugs with a drippy, colorful exterior. the colors are yellow, blue, and green." loading="lazy">
+    </div>
+  </main>
 </body>
 </html>
